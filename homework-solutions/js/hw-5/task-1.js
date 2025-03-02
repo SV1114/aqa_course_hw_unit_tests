@@ -11,7 +11,6 @@ for (let i = 10; i >= 0; i -= 2){
     }
 };
 evenNumbersResult = evenNumbersResult.slice(0,-1)
-console.log(evenNumbersResult);
 
 
 
@@ -32,7 +31,7 @@ for (let i = 1; i <= 5; i++){
     smilePatternResult += smile.repeat(i) + '\n'   
 };
 smilePatternResult = smilePatternResult.trimEnd() 
-console.log(smilePatternResult);
+
 /**
  * Заменить все пробелы в переменной text на "1".
  * Переменная для результата `replaceSpacesWithOneResult` уже создана и содержит пустую строку.
