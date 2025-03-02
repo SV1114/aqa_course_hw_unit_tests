@@ -29,10 +29,9 @@ console.log(evenNumbersResult);
 let smilePatternResult = '';
 let smile = ":)";
 for (let i = 1; i <= 5; i++){
-    smilePatternResult += smile.repeat(i) + '\n'
-    
+    smilePatternResult += smile.repeat(i) + '\n'   
 };
-smilePatternResult = smilePatternResult.trimEnd() // slice(0,-1)
+smilePatternResult = smilePatternResult.trimEnd() 
 console.log(smilePatternResult);
 /**
  * Заменить все пробелы в переменной text на "1".
