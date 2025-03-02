@@ -26,5 +26,7 @@ for (let i = 1; i <= 100; i++){
         fizzBuzzResult += `${i} - делится на 3\n`;
     } else fizzBuzzResult += `${i}\n`
     };
+    
+
 fizzBuzzResult = fizzBuzzResult.trimEnd();
 export { fizzBuzzResult };

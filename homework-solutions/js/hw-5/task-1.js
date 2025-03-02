@@ -14,6 +14,7 @@ evenNumbersResult = evenNumbersResult.slice(0,-1)
 
 
 
+
 /**
  * Создать строку из 5 строк с увеличивающимся количеством смайликов ":)".
  * Переменная для результата `smilePatternResult` уже создана и содержит пустую строку.
@@ -30,7 +31,8 @@ let smile = ":)";
 for (let i = 1; i <= 5; i++){
     smilePatternResult += smile.repeat(i) + '\n'   
 };
-smilePatternResult = smilePatternResult.trimEnd() 
+smilePatternResult = smilePatternResult.trimEnd();
+
 
 /**
  * Заменить все пробелы в переменной text на "1".
