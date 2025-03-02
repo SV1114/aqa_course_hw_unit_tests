@@ -16,7 +16,7 @@ for(let num of arrays) {
     forOf.push(num**3);
   }
 }
-
+console.log(forOf)
 /*
 2. Методы массивов
   - Создайте массив [1,2,3,4,5]
@@ -64,4 +64,4 @@ const mergedArray = array.concat(array1);
 console.log(mergedArray);
 
 export { forOf, result, first, second, rest, mergedArray };
-export { forOf, result, first, second, rest, mergedArray };
+
